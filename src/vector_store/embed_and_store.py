@@ -1,15 +1,13 @@
-import os
-from pathlib import Path
-
-import chromadb
-from openai import OpenAI
-
 from src.vector_store.vector_store import load_books
 
+from src.vector_store.utils import (
+    get_openai_client,
+    create_or_get_collection,
+    generate_embedding,
+    COLLECTION_NAME,
+)
 
-CHROMA_DB_PATH = Path(__file__).parent.parent / "chrom_db"
-COLLECTION_NAME = "books_collection"
-EMBEDDING_MODEL = "text-embedding-3-small"
+# PT RUN:   python -m src.vector_store.embed_and_store
 
 
 def build_book_text(book: dict) -> str:
@@ -24,27 +22,6 @@ def build_book_text(book: dict) -> str:
         f"Themes: {themes}\n"
         f"Genre: {genre}"
     )
-
-
-def get_openai_client() -> OpenAI:
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        raise ValueError("OPENAI_API_KEY environment variable is not set.")
-    return OpenAI(api_key=api_key)
-
-
-def generate_embedding(client: OpenAI, text: str) -> list[float]:
-    response = client.embeddings.create(
-        input=text,
-        model=EMBEDDING_MODEL
-    )
-    return response.data[0].embedding
-
-
-def create_or_get_collection():
-    chroma_client = chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
-    collection = chroma_client.get_or_create_collection(name=COLLECTION_NAME)
-    return collection
 
 
 def index_books():
