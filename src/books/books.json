@@ -1,0 +1,1005 @@
+[
+  {
+    "id": "book_001",
+    "title": "1984",
+    "author": "George Orwell",
+    "short_summary": "A dystopian novel about a totalitarian regime controlling truth and freedom through surveillance and propaganda.",
+    "full_summary": "The story follows Winston Smith in a society ruled by Big Brother, where independent thinking is forbidden. As Winston begins to question the system, he risks everything to seek truth and freedom. The novel explores manipulation, control, and psychological oppression.",
+    "themes": ["freedom", "control", "surveillance", "politics"],
+    "genre": ["dystopian", "science fiction"],
+    "year": 1949
+  },
+  {
+    "id": "book_002",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "short_summary": "A fantasy adventure about a hobbit who joins a quest to reclaim treasure from a dragon.",
+    "full_summary": "Bilbo Baggins embarks on a journey with dwarves to reclaim their homeland from Smaug. Along the way, he discovers courage and resourcefulness. The story emphasizes growth, friendship, and adventure.",
+    "themes": ["adventure", "friendship", "growth"],
+    "genre": ["fantasy"],
+    "year": 1937
+  },
+  {
+    "id": "book_003",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "short_summary": "A story about racial injustice and moral growth in the American South.",
+    "full_summary": "Scout Finch grows up witnessing her father defend a wrongly accused Black man. The novel explores prejudice, justice, and empathy through a child’s perspective.",
+    "themes": ["justice", "racism", "morality"],
+    "genre": ["classic", "drama"],
+    "year": 1960
+  },
+  {
+    "id": "book_004",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "short_summary": "A critique of the American Dream through the life of Jay Gatsby.",
+    "full_summary": "Nick Carraway observes the mysterious Gatsby, whose wealth and parties hide a deep longing for lost love. The novel explores illusion, wealth, and identity.",
+    "themes": ["wealth", "love", "illusion"],
+    "genre": ["classic"],
+    "year": 1925
+  },
+  {
+    "id": "book_005",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "short_summary": "A futuristic society where happiness is engineered and individuality is suppressed.",
+    "full_summary": "In a world of genetic engineering and social conditioning, citizens live controlled lives. The story questions freedom, technology, and human nature.",
+    "themes": ["technology", "control", "society"],
+    "genre": ["dystopian"],
+    "year": 1932
+  },
+  {
+    "id": "book_006",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "short_summary": "A teenager struggles with identity and alienation.",
+    "full_summary": "Holden Caulfield recounts days in his life filled with confusion and rebellion. The novel explores adolescence, isolation, and authenticity.",
+    "themes": ["identity", "alienation"],
+    "genre": ["classic"],
+    "year": 1951
+  },
+  {
+    "id": "book_007",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "short_summary": "A philosophical story about following one’s dreams.",
+    "full_summary": "Santiago travels in search of treasure but discovers inner purpose. The book emphasizes destiny, faith, and self-discovery.",
+    "themes": ["dreams", "destiny"],
+    "genre": ["philosophical"],
+    "year": 1988
+  },
+  {
+    "id": "book_008",
+    "title": "Harry Potter and the Sorcerer’s Stone",
+    "author": "J.K. Rowling",
+    "short_summary": "A young boy discovers he is a wizard and enters a magical world.",
+    "full_summary": "Harry attends Hogwarts, learns magic, and faces early challenges. The story introduces friendship, courage, and good versus evil.",
+    "themes": ["magic", "friendship"],
+    "genre": ["fantasy"],
+    "year": 1997
+  },
+  {
+    "id": "book_009",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "short_summary": "An epic quest to destroy a powerful ring and defeat evil.",
+    "full_summary": "Frodo and his companions journey to destroy the One Ring. The story explores sacrifice, friendship, and the battle between good and evil.",
+    "themes": ["friendship", "sacrifice"],
+    "genre": ["fantasy"],
+    "year": 1954
+  },
+  {
+    "id": "book_010",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "short_summary": "A science fiction saga about power, politics, and survival on a desert planet.",
+    "full_summary": "Paul Atreides navigates political intrigue and destiny on Arrakis. The novel explores power, ecology, and religion.",
+    "themes": ["power", "politics"],
+    "genre": ["science fiction"],
+    "year": 1965
+  },
+  {
+    "id": "book_011",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "short_summary": "A world where books are banned and burned.",
+    "full_summary": "Fireman Montag begins questioning a society that suppresses knowledge. The novel explores censorship and freedom of thought.",
+    "themes": ["censorship", "knowledge"],
+    "genre": ["dystopian"],
+    "year": 1953
+  },
+  {
+    "id": "book_012",
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "short_summary": "A story about a girl who finds comfort in books during WWII.",
+    "full_summary": "Narrated by Death, the novel follows Liesel as she steals books and shares them. It explores war, loss, and resilience.",
+    "themes": ["war", "loss"],
+    "genre": ["historical"],
+    "year": 2005
+  },
+  {
+    "id": "book_013",
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "short_summary": "An allegory about power and corruption in a farm society.",
+    "full_summary": "Animals overthrow humans but create a new tyranny. The novel critiques political systems and power abuse.",
+    "themes": ["power", "corruption"],
+    "genre": ["satire"],
+    "year": 1945
+  },
+  {
+    "id": "book_014",
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "short_summary": "A dystopian survival competition in a controlled society.",
+    "full_summary": "Katniss volunteers for deadly games and becomes a symbol of resistance. The story explores survival and rebellion.",
+    "themes": ["survival", "rebellion"],
+    "genre": ["dystopian"],
+    "year": 2008
+  },
+  {
+    "id": "book_015",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "short_summary": "A romantic story exploring class and relationships.",
+    "full_summary": "Elizabeth Bennet navigates societal expectations and love. The novel explores class, pride, and personal growth.",
+    "themes": ["love", "class"],
+    "genre": ["romance"],
+    "year": 1813
+  },
+  {
+    "id": "book_016",
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "short_summary": "Children enter a magical world filled with adventure and moral lessons.",
+    "full_summary": "The Pevensie siblings explore Narnia and battle evil forces. Themes include faith, courage, and redemption.",
+    "themes": ["magic", "courage"],
+    "genre": ["fantasy"],
+    "year": 1950
+  },
+  {
+    "id": "book_017",
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "short_summary": "A story of friendship, betrayal, and redemption in Afghanistan.",
+    "full_summary": "Amir seeks redemption after betraying his friend Hassan. The novel explores guilt, loyalty, and forgiveness.",
+    "themes": ["friendship", "guilt"],
+    "genre": ["drama"],
+    "year": 2003
+  },
+  {
+    "id": "book_018",
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "short_summary": "A survival story of a boy stranded with a tiger.",
+    "full_summary": "Pi survives a shipwreck and shares a lifeboat with a tiger. The novel explores faith, survival, and storytelling.",
+    "themes": ["survival", "faith"],
+    "genre": ["adventure"],
+    "year": 2001
+  },
+  {
+    "id": "book_019",
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "short_summary": "A father and son journey through a post-apocalyptic world.",
+    "full_summary": "The pair struggle to survive while maintaining hope and morality. The novel explores love and endurance.",
+    "themes": ["survival", "love"],
+    "genre": ["post-apocalyptic"],
+    "year": 2006
+  },
+  {
+    "id": "book_020",
+    "title": "The Shining",
+    "author": "Stephen King",
+    "short_summary": "A psychological horror story set in an isolated hotel.",
+    "full_summary": "Jack Torrance descends into madness while isolated in a haunted hotel. The novel explores fear, isolation, and mental breakdown.",
+    "themes": ["horror", "madness"],
+    "genre": ["horror"],
+    "year": 1977
+  },
+
+  {
+    "id": "book_021",
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "short_summary": "A sailor joins a dangerous quest to hunt a legendary white whale.",
+    "full_summary": "Ishmael narrates the obsessive journey of Captain Ahab, who is driven to hunt the white whale Moby Dick. The novel explores obsession, fate, and the human struggle against nature.",
+    "themes": ["obsession", "fate", "nature"],
+    "genre": ["adventure", "classic"],
+    "year": 1851
+  },
+  {
+    "id": "book_022",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "short_summary": "A psychological exploration of guilt after committing a crime.",
+    "full_summary": "Raskolnikov, a poor student, commits a murder and struggles with guilt and justification. The novel explores morality, redemption, and the human conscience.",
+    "themes": ["guilt", "morality", "redemption"],
+    "genre": ["philosophical", "drama"],
+    "year": 1866
+  },
+  {
+    "id": "book_023",
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "short_summary": "A philosophical novel about faith, doubt, and family conflict.",
+    "full_summary": "The story revolves around three brothers with different beliefs and personalities. It explores deep questions about religion, free will, and morality.",
+    "themes": ["faith", "family", "morality"],
+    "genre": ["philosophical"],
+    "year": 1880
+  },
+  {
+    "id": "book_024",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "short_summary": "A horror novel about a vampire count and his victims.",
+    "full_summary": "Count Dracula attempts to move from Transylvania to England to spread his undead curse. A group of people unite to stop him, exploring fear, immortality, and good versus evil.",
+    "themes": ["fear", "evil", "immortality"],
+    "genre": ["horror"],
+    "year": 1897
+  },
+  {
+    "id": "book_025",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "short_summary": "A scientist creates life and faces the consequences.",
+    "full_summary": "Victor Frankenstein creates a creature, which is rejected by society. The novel explores responsibility, isolation, and the limits of scientific ambition.",
+    "themes": ["science", "isolation", "responsibility"],
+    "genre": ["science fiction", "horror"],
+    "year": 1818
+  },
+  {
+    "id": "book_026",
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "short_summary": "A man remains young while his portrait ages.",
+    "full_summary": "Dorian Gray trades his soul for eternal youth while his portrait reflects his corruption. The novel explores vanity, morality, and consequences.",
+    "themes": ["vanity", "corruption", "morality"],
+    "genre": ["philosophical"],
+    "year": 1890
+  },
+  {
+    "id": "book_027",
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "short_summary": "A story of justice, redemption, and social struggle in France.",
+    "full_summary": "Jean Valjean seeks redemption after imprisonment, while being pursued by Inspector Javert. The novel explores justice, compassion, and inequality.",
+    "themes": ["justice", "redemption", "society"],
+    "genre": ["historical"],
+    "year": 1862
+  },
+  {
+    "id": "book_028",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "short_summary": "A sweeping narrative of Russian society during the Napoleonic wars.",
+    "full_summary": "The novel follows multiple families as they experience war, love, and change. It explores history, fate, and human relationships.",
+    "themes": ["war", "history", "family"],
+    "genre": ["historical"],
+    "year": 1869
+  },
+  {
+    "id": "book_029",
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "short_summary": "A philosophical tale about a young prince traveling between planets.",
+    "full_summary": "The Little Prince meets various characters, learning about human nature. The story explores innocence, love, and meaning.",
+    "themes": ["love", "innocence"],
+    "genre": ["philosophical"],
+    "year": 1943
+  },
+  {
+    "id": "book_030",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "short_summary": "A young woman seeks independence and love.",
+    "full_summary": "Jane Eyre overcomes hardship and grows into an independent woman. The novel explores identity, morality, and love.",
+    "themes": ["identity", "love"],
+    "genre": ["romance"],
+    "year": 1847
+  },
+  {
+    "id": "book_031",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "short_summary": "A tragic love story filled with passion and revenge.",
+    "full_summary": "Heathcliff and Catherine share a destructive love. The novel explores obsession, revenge, and emotional intensity.",
+    "themes": ["love", "revenge"],
+    "genre": ["drama"],
+    "year": 1847
+  },
+  {
+    "id": "book_032",
+    "title": "The Odyssey",
+    "author": "Homer",
+    "short_summary": "An epic journey of a hero trying to return home.",
+    "full_summary": "Odysseus faces monsters and gods while trying to return to Ithaca. The story explores heroism, perseverance, and fate.",
+    "themes": ["journey", "heroism"],
+    "genre": ["epic"],
+    "year": -800
+  },
+  {
+    "id": "book_033",
+    "title": "The Iliad",
+    "author": "Homer",
+    "short_summary": "An epic about the Trojan War and heroic conflict.",
+    "full_summary": "The story focuses on Achilles and the conflict of honor during war. It explores glory, rage, and fate.",
+    "themes": ["war", "honor"],
+    "genre": ["epic"],
+    "year": -750
+  },
+  {
+    "id": "book_034",
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "short_summary": "A love story between two teenagers facing illness.",
+    "full_summary": "Hazel and Augustus fall in love while dealing with cancer. The novel explores love, mortality, and meaning.",
+    "themes": ["love", "death"],
+    "genre": ["romance"],
+    "year": 2012
+  },
+  {
+    "id": "book_035",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "short_summary": "A thriller about a missing wife and hidden secrets.",
+    "full_summary": "Nick becomes the prime suspect when his wife disappears. The novel explores deception, media influence, and relationships.",
+    "themes": ["deception", "marriage"],
+    "genre": ["thriller"],
+    "year": 2012
+  },
+  {
+    "id": "book_036",
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "short_summary": "A journalist investigates a decades-old disappearance.",
+    "full_summary": "Mikael Blomkvist and Lisbeth Salander uncover dark secrets. The novel explores crime, corruption, and justice.",
+    "themes": ["crime", "investigation"],
+    "genre": ["thriller"],
+    "year": 2005
+  },
+  {
+    "id": "book_037",
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "short_summary": "A mystery involving secret societies and hidden codes.",
+    "full_summary": "Robert Langdon investigates clues linked to religious secrets. The story explores history, conspiracy, and symbols.",
+    "themes": ["mystery", "religion"],
+    "genre": ["thriller"],
+    "year": 2003
+  },
+  {
+    "id": "book_038",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "short_summary": "An astronaut struggles to survive on Mars.",
+    "full_summary": "Mark Watney uses science and ingenuity to survive after being stranded. The novel explores resilience, problem-solving, and survival.",
+    "themes": ["survival", "science"],
+    "genre": ["science fiction"],
+    "year": 2011
+  },
+  {
+    "id": "book_039",
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "short_summary": "A virtual reality treasure hunt in a dystopian future.",
+    "full_summary": "Wade Watts competes in a digital world to find hidden treasure. The novel explores technology, escapism, and identity.",
+    "themes": ["technology", "virtual reality"],
+    "genre": ["science fiction"],
+    "year": 2011
+  },
+  {
+    "id": "book_040",
+    "title": "Ender's Game",
+    "author": "Orson Scott Card",
+    "short_summary": "A gifted child is trained to become a military leader in space.",
+    "full_summary": "Ender Wiggin is trained through simulations to fight an alien threat. The novel explores leadership, strategy, and morality.",
+    "themes": ["war", "strategy"],
+    "genre": ["science fiction"],
+    "year": 1985
+  },
+
+  {
+    "id": "book_041",
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "short_summary": "A psychological thriller about a woman who stops speaking after committing a violent act.",
+    "full_summary": "Alicia Berenson shoots her husband and then refuses to speak. A psychotherapist becomes obsessed with uncovering her motive. The story explores trauma, silence, and truth.",
+    "themes": ["psychology", "mystery"],
+    "genre": ["thriller"],
+    "year": 2019
+  },
+  {
+    "id": "book_042",
+    "title": "Educated",
+    "author": "Tara Westover",
+    "short_summary": "A memoir about a woman who escapes a strict upbringing to pursue education.",
+    "full_summary": "Tara grows up in a survivalist family and eventually seeks education against all odds. The story explores identity, freedom, and transformation.",
+    "themes": ["education", "identity"],
+    "genre": ["memoir"],
+    "year": 2018
+  },
+  {
+    "id": "book_043",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "short_summary": "A brief history of humankind and its evolution.",
+    "full_summary": "The book explores how Homo sapiens evolved and shaped the modern world through culture, science, and society.",
+    "themes": ["history", "evolution"],
+    "genre": ["non-fiction"],
+    "year": 2011
+  },
+  {
+    "id": "book_044",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "short_summary": "A guide to building good habits and breaking bad ones.",
+    "full_summary": "The book explains how small changes lead to significant improvements over time. It focuses on systems, discipline, and consistency.",
+    "themes": ["habits", "self-improvement"],
+    "genre": ["non-fiction"],
+    "year": 2018
+  },
+  {
+    "id": "book_045",
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "short_summary": "A spiritual guide to living in the present moment.",
+    "full_summary": "The book teaches mindfulness and detachment from past and future worries. It focuses on awareness and inner peace.",
+    "themes": ["mindfulness", "spirituality"],
+    "genre": ["philosophical"],
+    "year": 1997
+  },
+  {
+    "id": "book_046",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "short_summary": "An exploration of how humans think and make decisions.",
+    "full_summary": "The book explains two systems of thinking: fast and intuitive versus slow and analytical. It explores biases and decision-making.",
+    "themes": ["psychology", "decision-making"],
+    "genre": ["non-fiction"],
+    "year": 2011
+  },
+  {
+    "id": "book_047",
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "short_summary": "A counterintuitive guide to living a meaningful life.",
+    "full_summary": "The book argues that embracing struggles and focusing on what truly matters leads to a better life.",
+    "themes": ["life", "values"],
+    "genre": ["self-help"],
+    "year": 2016
+  },
+  {
+    "id": "book_048",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "short_summary": "A personal finance book comparing two financial mindsets.",
+    "full_summary": "The book contrasts traditional and entrepreneurial approaches to money, focusing on financial independence.",
+    "themes": ["money", "finance"],
+    "genre": ["non-fiction"],
+    "year": 1997
+  },
+  {
+    "id": "book_049",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "short_summary": "A methodology for building startups efficiently.",
+    "full_summary": "The book introduces iterative product development and validated learning to minimize risk in startups.",
+    "themes": ["business", "innovation"],
+    "genre": ["non-fiction"],
+    "year": 2011
+  },
+  {
+    "id": "book_050",
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "short_summary": "A book about building innovative companies.",
+    "full_summary": "The author explains how to create unique products and monopolies rather than competing in crowded markets.",
+    "themes": ["innovation", "business"],
+    "genre": ["non-fiction"],
+    "year": 2014
+  },
+  {
+    "id": "book_051",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "short_summary": "A guide to writing readable and maintainable code.",
+    "full_summary": "The book teaches best practices for software development, focusing on clarity, simplicity, and discipline.",
+    "themes": ["programming", "best practices"],
+    "genre": ["technical"],
+    "year": 2008
+  },
+  {
+    "id": "book_052",
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "short_summary": "A catalog of common software design solutions.",
+    "full_summary": "The book presents reusable patterns for solving common design problems in software engineering.",
+    "themes": ["software", "architecture"],
+    "genre": ["technical"],
+    "year": 1994
+  },
+  {
+    "id": "book_053",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "short_summary": "A guide to focused and productive work.",
+    "full_summary": "The book emphasizes the importance of deep concentration in a distracted world.",
+    "themes": ["focus", "productivity"],
+    "genre": ["self-help"],
+    "year": 2016
+  },
+  {
+    "id": "book_054",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "short_summary": "A guide to becoming a better software developer.",
+    "full_summary": "The book covers practical advice for coding, debugging, and professional growth.",
+    "themes": ["programming", "career"],
+    "genre": ["technical"],
+    "year": 1999
+  },
+  {
+    "id": "book_055",
+    "title": "Start with Why",
+    "author": "Simon Sinek",
+    "short_summary": "A book about leadership and purpose.",
+    "full_summary": "The book explains how great leaders inspire by focusing on purpose rather than profit.",
+    "themes": ["leadership", "purpose"],
+    "genre": ["non-fiction"],
+    "year": 2009
+  },
+  {
+    "id": "book_056",
+    "title": "Outliers",
+    "author": "Malcolm Gladwell",
+    "short_summary": "An exploration of the factors behind success.",
+    "full_summary": "The book examines how opportunity, culture, and practice contribute to success.",
+    "themes": ["success", "society"],
+    "genre": ["non-fiction"],
+    "year": 2008
+  },
+  {
+    "id": "book_057",
+    "title": "Blink",
+    "author": "Malcolm Gladwell",
+    "short_summary": "A study of rapid decision-making.",
+    "full_summary": "The book explores how snap judgments can be both powerful and flawed.",
+    "themes": ["intuition", "decision-making"],
+    "genre": ["non-fiction"],
+    "year": 2005
+  },
+  {
+    "id": "book_058",
+    "title": "The 4-Hour Workweek",
+    "author": "Timothy Ferriss",
+    "short_summary": "A guide to escaping traditional work and designing your life.",
+    "full_summary": "The book promotes lifestyle design, automation, and remote work to achieve freedom.",
+    "themes": ["lifestyle", "freedom"],
+    "genre": ["self-help"],
+    "year": 2007
+  },
+  {
+    "id": "book_059",
+    "title": "Grit",
+    "author": "Angela Duckworth",
+    "short_summary": "A study of perseverance and passion.",
+    "full_summary": "The book argues that success depends more on persistence than talent.",
+    "themes": ["perseverance", "success"],
+    "genre": ["non-fiction"],
+    "year": 2016
+  },
+  {
+    "id": "book_060",
+    "title": "Mindset",
+    "author": "Carol S. Dweck",
+    "short_summary": "A book about fixed vs growth mindset.",
+    "full_summary": "The book explains how beliefs about abilities affect success and development.",
+    "themes": ["mindset", "growth"],
+    "genre": ["psychology"],
+    "year": 2006
+  },
+  {
+    "id": "book_061",
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "short_summary": "A book about how people think about money and financial decisions.",
+    "full_summary": "The book explores how behavior, emotions, and personal experiences shape financial decisions more than knowledge or intelligence.",
+    "themes": ["money", "behavior"],
+    "genre": ["non-fiction"],
+    "year": 2020
+  },
+  {
+    "id": "book_062",
+    "title": "Can't Hurt Me",
+    "author": "David Goggins",
+    "short_summary": "A memoir about overcoming extreme adversity.",
+    "full_summary": "David Goggins shares his journey from hardship to becoming a Navy SEAL, emphasizing mental toughness and discipline.",
+    "themes": ["discipline", "resilience"],
+    "genre": ["memoir"],
+    "year": 2018
+  },
+  {
+    "id": "book_063",
+    "title": "Extreme Ownership",
+    "author": "Jocko Willink",
+    "short_summary": "Leadership lessons from Navy SEAL operations.",
+    "full_summary": "The book teaches accountability and leadership principles through real combat experiences.",
+    "themes": ["leadership", "responsibility"],
+    "genre": ["non-fiction"],
+    "year": 2015
+  },
+  {
+    "id": "book_064",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "short_summary": "A collection of philosophical reflections on Stoicism.",
+    "full_summary": "The Roman emperor reflects on life, discipline, and acceptance, forming the foundation of Stoic philosophy.",
+    "themes": ["stoicism", "philosophy"],
+    "genre": ["philosophical"],
+    "year": 180
+  },
+  {
+    "id": "book_065",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "short_summary": "A classic text on strategy and warfare.",
+    "full_summary": "The book outlines strategic principles applicable to war, business, and leadership.",
+    "themes": ["strategy", "war"],
+    "genre": ["philosophical"],
+    "year": -500
+  },
+  {
+    "id": "book_066",
+    "title": "Man's Search for Meaning",
+    "author": "Viktor Frankl",
+    "short_summary": "A Holocaust survivor reflects on finding meaning in suffering.",
+    "full_summary": "Frankl describes his experiences in concentration camps and presents his theory of logotherapy.",
+    "themes": ["meaning", "suffering"],
+    "genre": ["philosophical"],
+    "year": 1946
+  },
+  {
+    "id": "book_067",
+    "title": "Ikigai",
+    "author": "Héctor García",
+    "short_summary": "A guide to finding purpose and longevity.",
+    "full_summary": "The book explores Japanese philosophy around purpose and living a fulfilling life.",
+    "themes": ["purpose", "life"],
+    "genre": ["non-fiction"],
+    "year": 2016
+  },
+  {
+    "id": "book_068",
+    "title": "Flow",
+    "author": "Mihaly Csikszentmihalyi",
+    "short_summary": "A study of optimal experience and happiness.",
+    "full_summary": "The book explains how deep focus and engagement lead to fulfillment.",
+    "themes": ["focus", "happiness"],
+    "genre": ["psychology"],
+    "year": 1990
+  },
+  {
+    "id": "book_069",
+    "title": "Rework",
+    "author": "Jason Fried",
+    "short_summary": "A modern take on building businesses differently.",
+    "full_summary": "The book challenges traditional business practices and promotes simplicity and efficiency.",
+    "themes": ["business", "simplicity"],
+    "genre": ["non-fiction"],
+    "year": 2010
+  },
+  {
+    "id": "book_070",
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "short_summary": "A guide to building habit-forming products.",
+    "full_summary": "The book explains how products can create user habits through triggers and rewards.",
+    "themes": ["product", "psychology"],
+    "genre": ["non-fiction"],
+    "year": 2014
+  },
+  {
+    "id": "book_071",
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "short_summary": "A comprehensive guide for software engineering interviews.",
+    "full_summary": "The book provides coding problems, solutions, and strategies for technical interviews.",
+    "themes": ["programming", "interview"],
+    "genre": ["technical"],
+    "year": 2015
+  },
+  {
+    "id": "book_072",
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "short_summary": "A deep dive into JavaScript concepts.",
+    "full_summary": "The book series explores core mechanisms of JavaScript in depth.",
+    "themes": ["javascript", "programming"],
+    "genre": ["technical"],
+    "year": 2014
+  },
+  {
+    "id": "book_073",
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "short_summary": "Improving code structure without changing behavior.",
+    "full_summary": "The book explains techniques to improve code readability and maintainability.",
+    "themes": ["code quality", "software"],
+    "genre": ["technical"],
+    "year": 1999
+  },
+  {
+    "id": "book_074",
+    "title": "The Mythical Man-Month",
+    "author": "Frederick P. Brooks",
+    "short_summary": "Insights into software project management.",
+    "full_summary": "The book discusses why software projects fail and how to manage complexity.",
+    "themes": ["software", "management"],
+    "genre": ["technical"],
+    "year": 1975
+  },
+  {
+    "id": "book_075",
+    "title": "Algorithms to Live By",
+    "author": "Brian Christian",
+    "short_summary": "Applying computer science concepts to daily life.",
+    "full_summary": "The book explains how algorithms can optimize everyday decisions.",
+    "themes": ["algorithms", "decision-making"],
+    "genre": ["non-fiction"],
+    "year": 2016
+  },
+  {
+    "id": "book_076",
+    "title": "Superintelligence",
+    "author": "Nick Bostrom",
+    "short_summary": "An exploration of future AI risks and possibilities.",
+    "full_summary": "The book analyzes how advanced AI could impact humanity and global systems.",
+    "themes": ["AI", "future"],
+    "genre": ["non-fiction"],
+    "year": 2014
+  },
+  {
+    "id": "book_077",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart Russell",
+    "short_summary": "A foundational textbook on AI concepts.",
+    "full_summary": "The book covers search, reasoning, learning, and robotics in AI.",
+    "themes": ["AI", "machine learning"],
+    "genre": ["technical"],
+    "year": 1995
+  },
+  {
+    "id": "book_078",
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow",
+    "short_summary": "A comprehensive introduction to deep learning.",
+    "full_summary": "The book covers neural networks, optimization, and practical ML systems.",
+    "themes": ["deep learning", "AI"],
+    "genre": ["technical"],
+    "year": 2016
+  },
+  {
+    "id": "book_079",
+    "title": "Hands-On Machine Learning",
+    "author": "Aurélien Géron",
+    "short_summary": "Practical guide to machine learning with Python.",
+    "full_summary": "The book provides hands-on examples using real-world ML libraries.",
+    "themes": ["machine learning", "python"],
+    "genre": ["technical"],
+    "year": 2017
+  },
+  {
+    "id": "book_080",
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "short_summary": "A beginner-friendly introduction to Python programming.",
+    "full_summary": "The book teaches Python basics and projects to build real applications.",
+    "themes": ["python", "programming"],
+    "genre": ["technical"],
+    "year": 2015
+  },
+  {
+    "id": "book_081",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "short_summary": "A gifted young man tells the story of his rise to legend.",
+    "full_summary": "Kvothe recounts his journey from a troubled childhood to becoming a powerful figure. The novel explores knowledge, magic, and identity.",
+    "themes": ["magic", "identity"],
+    "genre": ["fantasy"],
+    "year": 2007
+  },
+  {
+    "id": "book_082",
+    "title": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson",
+    "short_summary": "A group of rebels plans to overthrow a tyrannical ruler.",
+    "full_summary": "In a world ruled by an immortal tyrant, a group of thieves discovers hidden powers and attempts rebellion. The story explores power, trust, and revolution.",
+    "themes": ["rebellion", "power"],
+    "genre": ["fantasy"],
+    "year": 2006
+  },
+  {
+    "id": "book_083",
+    "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "short_summary": "An epic fantasy about war, honor, and destiny.",
+    "full_summary": "Multiple characters navigate political intrigue and war in a richly built world. Themes include leadership, sacrifice, and resilience.",
+    "themes": ["war", "honor"],
+    "genre": ["fantasy"],
+    "year": 2010
+  },
+  {
+    "id": "book_084",
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "short_summary": "Noble families compete for power in a brutal world.",
+    "full_summary": "Political intrigue, betrayal, and war unfold as families fight for the Iron Throne. The novel explores power, loyalty, and survival.",
+    "themes": ["power", "politics"],
+    "genre": ["fantasy"],
+    "year": 1996
+  },
+  {
+    "id": "book_085",
+    "title": "The Lies of Locke Lamora",
+    "author": "Scott Lynch",
+    "short_summary": "A master thief leads elaborate heists in a fantasy city.",
+    "full_summary": "Locke Lamora and his gang execute complex schemes while navigating danger. The story explores deception, friendship, and survival.",
+    "themes": ["deception", "friendship"],
+    "genre": ["fantasy"],
+    "year": 2006
+  },
+  {
+    "id": "book_086",
+    "title": "The Blade Itself",
+    "author": "Joe Abercrombie",
+    "short_summary": "A gritty fantasy about flawed characters and conflict.",
+    "full_summary": "Several morally complex characters are drawn into war and politics. The novel explores violence, power, and human nature.",
+    "themes": ["violence", "power"],
+    "genre": ["fantasy"],
+    "year": 2006
+  },
+  {
+    "id": "book_087",
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "short_summary": "A cyberpunk novel about hacking and artificial intelligence.",
+    "full_summary": "A hacker is hired for a dangerous mission involving powerful AI. The novel explores technology, identity, and control.",
+    "themes": ["technology", "AI"],
+    "genre": ["science fiction"],
+    "year": 1984
+  },
+  {
+    "id": "book_088",
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "short_summary": "A hacker uncovers a digital and biological threat.",
+    "full_summary": "In a futuristic world, a virtual virus threatens both computers and humans. The story explores virtual reality and information control.",
+    "themes": ["virtual reality", "technology"],
+    "genre": ["science fiction"],
+    "year": 1992
+  },
+  {
+    "id": "book_089",
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "short_summary": "A plan to preserve knowledge as a galactic empire collapses.",
+    "full_summary": "Scientists attempt to guide humanity through dark ages using predictive science. The novel explores history, science, and civilization.",
+    "themes": ["science", "history"],
+    "genre": ["science fiction"],
+    "year": 1951
+  },
+  {
+    "id": "book_090",
+    "title": "I, Robot",
+    "author": "Isaac Asimov",
+    "short_summary": "A collection of stories exploring human-robot relationships.",
+    "full_summary": "The stories introduce the Three Laws of Robotics and explore ethical dilemmas involving AI.",
+    "themes": ["AI", "ethics"],
+    "genre": ["science fiction"],
+    "year": 1950
+  },
+  {
+    "id": "book_091",
+    "title": "The Time Machine",
+    "author": "H.G. Wells",
+    "short_summary": "A scientist travels far into the future.",
+    "full_summary": "The Time Traveller discovers a divided future society. The novel explores time, evolution, and social inequality.",
+    "themes": ["time", "evolution"],
+    "genre": ["science fiction"],
+    "year": 1895
+  },
+  {
+    "id": "book_092",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "short_summary": "An explanation of the universe and its laws.",
+    "full_summary": "The book explores black holes, time, and the origin of the universe in accessible language.",
+    "themes": ["physics", "universe"],
+    "genre": ["non-fiction"],
+    "year": 1988
+  },
+  {
+    "id": "book_093",
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "short_summary": "An evolutionary perspective centered on genes.",
+    "full_summary": "The book explains evolution through the lens of gene survival and replication.",
+    "themes": ["evolution", "biology"],
+    "genre": ["non-fiction"],
+    "year": 1976
+  },
+  {
+    "id": "book_094",
+    "title": "Thinking in Systems",
+    "author": "Donella Meadows",
+    "short_summary": "An introduction to systems thinking.",
+    "full_summary": "The book explains how complex systems behave and how to understand them.",
+    "themes": ["systems", "thinking"],
+    "genre": ["non-fiction"],
+    "year": 2008
+  },
+  {
+    "id": "book_095",
+    "title": "The Hard Thing About Hard Things",
+    "author": "Ben Horowitz",
+    "short_summary": "A guide to the challenges of running a company.",
+    "full_summary": "The author shares real-world lessons about leadership and decision-making under pressure.",
+    "themes": ["business", "leadership"],
+    "genre": ["non-fiction"],
+    "year": 2014
+  },
+  {
+    "id": "book_096",
+    "title": "Measure What Matters",
+    "author": "John Doerr",
+    "short_summary": "A framework for goal-setting using OKRs.",
+    "full_summary": "The book explains how organizations achieve success using clear and measurable objectives.",
+    "themes": ["goals", "performance"],
+    "genre": ["non-fiction"],
+    "year": 2017
+  },
+  {
+    "id": "book_097",
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton Christensen",
+    "short_summary": "Why successful companies fail to innovate.",
+    "full_summary": "The book explains disruptive innovation and how it challenges established businesses.",
+    "themes": ["innovation", "business"],
+    "genre": ["non-fiction"],
+    "year": 1997
+  },
+  {
+    "id": "book_098",
+    "title": "The E-Myth Revisited",
+    "author": "Michael E. Gerber",
+    "short_summary": "Why small businesses fail and how to fix them.",
+    "full_summary": "The book explains how systems and structure are essential for business success.",
+    "themes": ["business", "systems"],
+    "genre": ["non-fiction"],
+    "year": 1995
+  },
+  {
+    "id": "book_099",
+    "title": "Drive",
+    "author": "Daniel Pink",
+    "short_summary": "What motivates people in work and life.",
+    "full_summary": "The book explores autonomy, mastery, and purpose as key motivators.",
+    "themes": ["motivation", "psychology"],
+    "genre": ["non-fiction"],
+    "year": 2009
+  },
+  {
+    "id": "book_100",
+    "title": "The Happiness Advantage",
+    "author": "Shawn Achor",
+    "short_summary": "How happiness leads to success.",
+    "full_summary": "The book explains how positive thinking improves performance and well-being.",
+    "themes": ["happiness", "success"],
+    "genre": ["self-help"],
+    "year": 2010
+  }
+]
+
