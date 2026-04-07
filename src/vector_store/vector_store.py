@@ -10,9 +10,3 @@ def load_books():
         books = json.load(f)
 
     return books
-
-
-if __name__ == "__main__":
-    books = load_books()
-    print(f"Loaded {len(books)} books")
-    print(books[0]["title"])
