@@ -63,7 +63,3 @@ def index_books():
     )
 
     print(f"Indexed {len(books)} books into ChromaDB collection '{COLLECTION_NAME}'.")
-
-
-if __name__ == "__main__":
-    index_books()

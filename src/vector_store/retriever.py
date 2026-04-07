@@ -27,14 +27,3 @@ def retrieve_books(query: str, n_results: int = 3) -> list[dict]:
         })
 
     return books
-
-
-if __name__ == "__main__":
-    user_query = "I want a book about love and war, preferably set in the 20th century."
-
-    books = retrieve_books(user_query, n_results=3)
-
-    print("\nTop results:\n")
-
-    for i, book in enumerate(books, start=1):
-        print(f"{i}. {book['title']} by {book['author']}")
