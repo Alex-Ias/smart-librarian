@@ -74,3 +74,21 @@ def speak(text: str) -> None:
     finally:
         time.sleep(0.1)
         Path(audio_file).unlink(missing_ok=True)
+
+
+# For API usage: generate audio as bytes so the backend can return it in an HTTP response.
+async def _synthesize_to_bytes(text: str) -> bytes:
+    if not text or not text.strip():
+        raise ValueError("Text for speech generation cannot be empty.")
+
+    temp_audio_file = await _generate_temp_audio_file(text)
+    temp_path = Path(temp_audio_file)
+
+    try:
+        return temp_path.read_bytes()
+    finally:
+        temp_path.unlink(missing_ok=True)
+
+
+async def text_to_speech_bytes(text: str) -> bytes:
+    return await _synthesize_to_bytes(text)

@@ -4,7 +4,6 @@ from src.vector_store.utils import (
     generate_embedding,
 )
 
-
 def retrieve_books(query: str, n_results: int = 3) -> list[dict]:
     client = get_openai_client()
     collection = create_or_get_collection()

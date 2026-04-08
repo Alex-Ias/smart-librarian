@@ -4,7 +4,7 @@ from src.chatbot.tools import get_summary_by_title
 from src.vector_store.retriever import retrieve_books
 from src.vector_store.utils import get_openai_client
 
-MODEL_NAME = "gpt-4.1-mini"
+MODEL_NAME = "gpt-4o-mini"
 
 TOOLS = [
     {
@@ -31,19 +31,18 @@ SYSTEM_PROMPT = (
     "Use only the retrieved books as context. "
     "Do not use outside knowledge. "
     "Do not ask follow-up questions. "
-    "Do not offer to provide more details later. "
-    "Do not say things like 'Would you like a more detailed summary?' or "
-    "'I can give you more details if you want'. "
+    "Do not offer more details later. "
     "If the user asks for a recommendation or asks about a book, respond directly. "
     "If there is a suitable match, choose exactly one book, explain briefly why it matches, "
     "then call the tool get_summary_by_title with the exact title of that book. "
-    "After receiving the tool result, provide the final answer in the same response. "
-    "The final answer must contain: "
-    "1. the recommended book title and author, "
-    "2. one short reason why it matches, "
-    "3. the full summary returned by the tool. "
+    "After receiving the tool result, provide the final answer in plain text only. "
+    "Do not use markdown. "
+    "Do not use bold, bullet points, headings, or labels like 'Summary:' or 'Recommendation:'. "
+    "Write exactly 2 short paragraphs: "
+    "Paragraph 1: Recommend the book and explain briefly why it matches. "
+    "Paragraph 2: Give the full summary returned by the tool, with no extra formatting. "
+    "Do not repeat the title more than necessary. "
     "Do not ask the user anything at the end. "
-    "Do not add optional follow-up suggestions. "
     "If no suitable match exists, say clearly: "
     "'I could not find a relevant recommendation based on your request.'"
 )
