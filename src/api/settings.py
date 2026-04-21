@@ -1,5 +1,7 @@
-from pydantic_settings import BaseSettings
 from typing import List
+
+from pydantic_settings import BaseSettings
+
 
 class Settings(BaseSettings):
     allowed_origins: str = "http://localhost:3000"
@@ -8,5 +10,6 @@ class Settings(BaseSettings):
     @property
     def allowed_origins_list(self) -> List[str]:
         return [item.strip() for item in self.allowed_origins.split(",") if item.strip()]
+
 
 settings = Settings()

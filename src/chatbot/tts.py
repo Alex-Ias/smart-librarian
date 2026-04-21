@@ -65,17 +65,6 @@ def _play_audio_windows(audio_file: str) -> None:
     if error != 0:
         raise RuntimeError("Could not play audio file.")
 
-
-def speak(text: str) -> None:
-    audio_file = asyncio.run(_generate_temp_audio_file(text))
-
-    try:
-        _play_audio_windows(audio_file)
-    finally:
-        time.sleep(0.1)
-        Path(audio_file).unlink(missing_ok=True)
-
-
 # For API usage: generate audio as bytes so the backend can return it in an HTTP response.
 async def _synthesize_to_bytes(text: str) -> bytes:
     if not text or not text.strip():

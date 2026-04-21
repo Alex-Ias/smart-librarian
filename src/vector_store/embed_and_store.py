@@ -1,5 +1,4 @@
 from src.vector_store.vector_store import load_books
-
 from src.vector_store.utils import (
     get_openai_client,
     create_or_get_collection,
@@ -7,7 +6,8 @@ from src.vector_store.utils import (
     COLLECTION_NAME,
 )
 
-# PT RUN:   python -m src.vector_store.embed_and_store
+# PT RUN:
+# python -m src.vector_store.embed_and_store
 
 
 def build_book_text(book: dict) -> str:
@@ -24,17 +24,10 @@ def build_book_text(book: dict) -> str:
     )
 
 
-def index_books():
+def index_books() -> None:
     books = load_books()
     client = get_openai_client()
     collection = create_or_get_collection()
-
-    existing_items = collection.get()
-    existing_ids = existing_items.get("ids", [])
-
-    if len(existing_ids) > 0:
-        print(f"Collection already has {len(existing_ids)} items. Deleting them first.")
-        collection.delete(ids=existing_ids)
 
     ids = []
     documents = []
@@ -47,19 +40,43 @@ def index_books():
 
         ids.append(book["id"])
         documents.append(book_text)
-        metadatas.append({
-            "title": book["title"],
-            "author": book["author"],
-            "year": str(book["year"]),
-            "genre": ", ".join(book["genre"]),
-        })
+        metadatas.append(
+            {
+                "title": book["title"],
+                "author": book["author"],
+                "year": str(book["year"]),
+                "genre": ", ".join(book["genre"]),
+                "themes": ", ".join(book["themes"]),
+                "short_summary": book["short_summary"],
+            }
+        )
         embeddings.append(embedding)
 
     collection.add(
         ids=ids,
         documents=documents,
         metadatas=metadatas,
-        embeddings=embeddings
+        embeddings=embeddings,
     )
 
     print(f"Indexed {len(books)} books into ChromaDB collection '{COLLECTION_NAME}'.")
+
+
+def ensure_indexed() -> None:
+    collection = create_or_get_collection()
+
+    existing_items = collection.get()
+    existing_ids = existing_items.get("ids", [])
+
+    if existing_ids:
+        print(
+            f"Collection '{COLLECTION_NAME}' already initialized with {len(existing_ids)} items."
+        )
+        return
+
+    print(f"Collection '{COLLECTION_NAME}' is empty. Indexing books...")
+    index_books()
+
+
+if __name__ == "__main__":
+    ensure_indexed()
